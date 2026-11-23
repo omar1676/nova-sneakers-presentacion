@@ -145,6 +145,17 @@ a { color: inherit; }
 .titulo--l { font-size: 84px; }
 .titulo .punto, .punto { color: var(--cobre); }
 .cursiva { font-family: var(--serif); font-style: italic; font-weight: 400; color: var(--cobre); letter-spacing: -.02em; font-stretch: 100%; }
+/* Frase de entrada: la frase de paso con la que se llega a la diapositiva (la pone generar_guiones.py) */
+.frase-entrada {
+  font-family: var(--serif); font-style: italic; font-size: 25px; line-height: 1.3;
+  color: var(--suave); max-width: 1150px; margin: -4px 0 18px;
+  padding-left: 16px; border-left: 3px solid var(--cobre);
+}
+/* Con frase de entrada, los visores (8 y 16) ceden ese espacio para seguir cabiendo en 900 px */
+.frase-entrada ~ .visor { margin-top: 18px; }
+.frase-entrada ~ .visor .visor__vistas { height: 600px; }
+.frase-entrada ~ .visor .visor__vista .dialogo,
+.frase-entrada ~ .visor .visor__vista .dialogo img { max-height: 565px; }
 .entradilla { font-size: 27px; line-height: 1.32; color: var(--suave); max-width: 760px; margin-top: 26px; }
 .entradilla strong { color: var(--tinta); font-weight: 600; }
 .diapo--clara .entradilla strong { color: var(--tinta-osc); }
@@ -512,6 +523,10 @@ a { color: inherit; }
   .diapo__cabecera img { height: 26px; }
   .diapo__fuente { position: static; margin-top: 26px; font-size: 12px; }
   .titulo, .titulo--l, .vision .titulo { font-size: 40px; }
+  .frase-entrada { font-size: 18px; margin-top: 0; }
+  .frase-entrada ~ .visor .visor__vistas { height: auto; }
+  .frase-entrada ~ .visor .visor__vista .dialogo,
+  .frase-entrada ~ .visor .visor__vista .dialogo img { max-height: none; }
   .titulo--xl, .cierre .titulo--xl { font-size: 54px; }
   .entradilla { font-size: 19px; }
   .etiqueta { font-size: 12px; }
