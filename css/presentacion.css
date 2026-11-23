@@ -417,7 +417,7 @@ a { color: inherit; }
 .codigo__archivo { font-family: var(--mono); font-size: 15px; color: var(--cobre-claro); margin-bottom: 10px; }
 .codigo pre {
   margin: 0; padding: 20px 22px; border-radius: 10px; background: #0f0e10; border: 1px solid #ffffff1f;
-  font-family: var(--mono); font-size: 15px; line-height: 1.48; color: #e9e3dc; overflow-x: auto; white-space: pre;
+  font-family: var(--mono); font-size: 17px; line-height: 1.55; color: #e9e3dc; overflow-x: auto; white-space: pre;
 }
 .codigo pre .n { color: #6f6866; user-select: none; display: inline-block; width: 36px; }
 .codigo pre .c { color: #8f8a86; font-style: italic; }
