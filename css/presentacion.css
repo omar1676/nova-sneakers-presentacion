@@ -213,6 +213,7 @@ a { color: inherit; }
 .pilar__num { font-size: 15px; font-weight: 700; color: var(--cobre); letter-spacing: .1em; padding-top: 6px; }
 .pilar h3 { font-size: 30px; font-weight: 800; font-stretch: 105%; letter-spacing: -.01em; }
 .pilar p { font-size: 19px; color: var(--suave); margin-top: 6px; }
+.mencion { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-top: 30px; font-size: 21px; color: var(--tinta); }
 .vision__fila { position: absolute; left: 96px; bottom: 70px; display: flex; gap: 26px; align-items: flex-end; }
 .vision__fila img { height: 150px; width: auto; filter: drop-shadow(0 18px 16px #000a); }
 
